@@ -121,7 +121,7 @@ body {
 }
 
 .img3:hover{
-    transform: scale(1.7);   
+    transform: scale(1.2);   
 }
 
 .img4{
@@ -134,7 +134,7 @@ body {
 }
 
 .img4:hover{
-    transform: scale(1.7);   
+    transform: scale(1.2);   
 }
 
 .table2{
@@ -150,7 +150,7 @@ body {
   user-select: none; /* Standard syntax */
 }
 .img5:hover{
-    transform: scale(1.7);   
+    transform: scale(1.2);   
 }
 
 .img6{
@@ -163,7 +163,7 @@ body {
 }
 
 .img6:hover{
-    transform: scale(1.7);   
+    transform: scale(1.2);   
 }
 
 .bar1{
