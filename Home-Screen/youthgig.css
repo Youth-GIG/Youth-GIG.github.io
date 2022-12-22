@@ -72,6 +72,7 @@ body {
 .text1{
     color: #ffffff;
     text-align: center;
+    margin: auto;
     font-size: 30px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-family: 'Benne', serif;
@@ -87,14 +88,15 @@ body {
 }
 
 .div1{
-    width: 1080px;
+    width: 985px;
     height: 400px;
-    background-color: black;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
 }
 
 .img2{
-    width: 600px;
+    width: 500px;
     border-radius: 10px;
        -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -165,7 +167,7 @@ body {
 }
 
 .bar1{
-    width: 1150px;
+    width: 97%;
     height: 3px;
     background-color: #ffffff;
     border-radius: 30px;
@@ -452,7 +454,7 @@ display: block;
 }
 
 .bar2{
-    width: 1150px;
+    width: 97%;
     height: 3px;
     background-color: #ffffff;
     border-radius: 30px;
