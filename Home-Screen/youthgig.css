@@ -72,7 +72,9 @@ body {
 .text1{
     color: #ffffff;
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     font-size: 30px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-family: 'Benne', serif;
@@ -550,6 +552,489 @@ display: block;
 
 
 
+/* portrait.css */
+@media only screen and (min-width: 1313px) {
+
+  .spotifyadportrait{
+display: none;
+}
+
+.appdescript3-portrait{
+  display: none;
+}
+
+.appdescript4-portrait{
+  display: none;
+
+}
+
+.advert-portrait{
+  display: none;
+
+}
+
+
+}
+
+/*portrait*/
+@media  (max-width: 1313px) {
+
+  .div1{
+    width: 770px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.img2{
+    width: 420px;
+    border-radius: 10px;
+       -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+
+
+.table1{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.img3{
+    width: 160px;
+    transition: 0.75s;
+    border-radius: 3px;
+       -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+}
+
+.img3:hover{
+    transform: scale(1.2);   
+}
+
+.img4{
+    width: 160px;
+    transition: 0.75s;
+    border-radius: 3px;
+       -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.img4:hover{
+    transform: scale(1.2);   
+}
+
+.table2{
+    margin-top: -7px;
+
+}
+
+.img5{
+    width: 160px;
+    transition: 0.75s;
+    border-radius: 3px;
+       -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.img5:hover{
+    transform: scale(1.2);   
+}
+
+.img6{
+    width: 160px;
+    transition: 0.75s;
+    border-radius: 3px;
+       -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.img6:hover{
+    transform: scale(1.2);   
+}
+
+.table01{
+  margin: auto;
+  width: 770px;
+
+}
+
+.announcements{
+  font-size: 23px;
+  color: white;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  margin-left: 20px;
+  
+}
+
+
+.column5{
+  border-radius: 30px;
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+
+.apptable{
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.tablediv1{
+  height: 150px;
+  width: 520x;
+}
+
+.tablediv2{
+  margin-top: -50px;
+  width: 310px;
+  height: 200px;
+}
+
+.appset1{
+  margin: auto;
+  width: 10px;
+  height: 10px;
+}
+
+.spotifyapp{
+  display: block;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.40s;
+}
+
+.spotifyapp:hover{
+  transform: scale(1.2);
+}
+
+.spotifylogo{
+  width: 80px;
+  border-radius: 20px;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  
+}
+
+.youtubeapp{
+  display: block;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-left: 20px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.40s;
+}
+
+.youtubelogo{
+  width: 80px;
+  border-radius: 20px;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.youtubeapp:hover{
+  transform: scale(1.2);
+}
+
+.twitterapp{
+display: block;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-left: 20px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.40s;
+}
+.twitterlogo{
+  width: 80px;
+  border-radius: 20px;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.twitterapp:hover{
+  transform: scale(1.2);
+}
+
+
+
+.instagramapp{
+  display: block;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.40s;
+}
+
+.instalogo{
+  width: 80px;
+  border-radius: 20px;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.instagramapp:hover{
+  transform: scale(1.2);
+}
+
+.facebookapp{
+  display: block;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-left: 20px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.40s;
+}
+
+.facebooklogo{
+  width: 80px;
+  border-radius: 20px;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.facebookapp:hover{
+  transform: scale(1.2);
+}
+
+.youthgigapp{
+  display: block;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-left: 20px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.40s;
+}
+
+.youthlogo{
+  width: 80px;
+  border-radius: 20px;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.youthgigapp:hover{
+  transform: scale(1.2);
+}
+
+.appdescript{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 100px;
+    width: 345px;
+    font-family: 'Inter', sans-serif;
+       -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.appdescript2{
+    color: rgb(98, 98, 98);
+    font-size: 13px;
+    width: 362px;
+    margin-top: 20px;
+    font-family: 'Fira Code', monospace;
+       -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.spotifyadportrait{
+  width: 770px;
+  height: 360px;
+  margin: auto;
+}
+
+.appdescript3-portrait{
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+       -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.appdescript4-portrait{
+    color: rgb(98, 98, 98);
+    font-size: 13px;
+    width: 362px;
+    margin-top: 50px;
+    font-family: 'Fira Code', monospace;
+       -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+}
+
+.advert-portrait{
+  border-radius: 30px;
+  width: 350px;
+  height: 350px;
+  float: right;
+  background-color: white;
+  margin-left: 50px;
+
+}
+
+.bar2-portrait{
+    width: 97%;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contact{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1100px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  
+}
+
+.email{
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: 'Fira Code', monospace;
+  transition: 0.75s;
+  text-decoration: none;
+
+}
+
+.email:hover{
+  transform: scale(1.4);
+}
+
+.contactinfo{
+  margin: auto;
+  height: 200px;
+  width: 700px;
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.contable{
+  border-spacing: 20px;
+}
+
+.lorem1{
+  color: #ffffff;
+  width: 250px;
+  transition: 0.75s;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.lorem1:hover{
+  transform: scale(1.2);
+}
+
+.lorem2{
+  color: #ffffff;
+  width: 250px;
+  transition: 0.75s;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.lorem2:hover{
+  transform: scale(1.2);
+}
+
+.lorem3{
+  color: #ffffff;
+  width: 250px;
+  transition: 0.75s;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.lorem3:hover{
+  transform: scale(1.2);
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spotifyad{
+  display: none;
+}
+
+.bar2{
+  display: none;
+}
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -562,7 +1047,7 @@ display: block;
 
 
 /* Mobile.css */
-@media only screen and (min-width: 840px) {
+@media only screen and (min-width: 791px) {
   
   div.scrollmenu a{
   display: none;
@@ -574,7 +1059,7 @@ div.parentmobile div{
 }
 
 
-@media only screen and (max-width:840px) {
+@media only screen and (max-width:791px) {
 
   /* Add a black background color to the top navigation */
 .topnav {
