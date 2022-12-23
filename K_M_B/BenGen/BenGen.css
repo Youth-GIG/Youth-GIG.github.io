@@ -203,7 +203,6 @@ div.scrollmenu img{
   scroll-snap-align: start;
 }
 
-
 .member-1{
   display: inline-block;
   width: 284px;
@@ -212,12 +211,6 @@ div.scrollmenu img{
   transition: 0.40s;
 }
 
-.member-pic-1{
-  object-fit: fill;
-  width: 284px;
-  height: 350px;
-  border-radius: 20px;
-}
 
 .member-2{
   display: inline-block;
@@ -344,7 +337,7 @@ div.scrollmenu img{
   background-color: black;
 }
 
-.why-kairos{
+.why-bengen{
   font-size: 50px;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
@@ -411,4 +404,465 @@ div.scrollmenu img{
   color: rgb(98, 98, 98);
   margin-top: -30px;
   font-family: 'Fira Code', monospace;
+}
+
+
+
+
+
+
+
+
+
+
+/* portrait.css */
+@media only screen and (min-width: 1313px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:791px) {
+
+  .scrollmenu-1{
+
+    display: none;
+
+}
+
+.parent-mobile{
+  display: none;
+}
+
+div.scrollmenu-1 {
+
+  display: none;
+
+
+}
+
+div.scrollmenu-1 img{
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+}
+
+/* Mobile.css */
+@media only screen and (max-width:791px) {
+
+.parent1{
+  width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.text1{
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+      -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+}
+
+.scrollmenu-1{
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+div.scrollmenu-1 {
+  overflow: auto;
+  white-space: nowrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 30px;
+        -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+div.scrollmenu-1 img{
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+.containermobile{
+  width: 100%;
+}
+
+.table1{
+  width: 100%;
+  justify-content: center;
+  display: none;
+}
+
+.imgdiv1{
+  width: 470px;
+  height: 265px;
+  transition: 0.75s;
+      -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.imgdiv1:hover{
+  transform: scale(1.2);
+}
+
+.img01{
+  width: 470px;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.imgdiv2{
+  width: 470px;
+  height: 265px;
+  margin-left: 14px;
+    transition: 0.75s;
+          -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+}
+
+.imgdiv2:hover{
+  transform: scale(1.2);
+}
+
+.img02{
+  width: 470px;
+  object-fit: fill;
+    border-radius: 5px;
+}
+
+.table2{
+  margin-top: 14px;
+  width: 100%;
+  justify-content: center;
+  display: none;
+}
+
+.imgdiv3{
+  width: 470px;
+  height: 265px;
+    transition: 0.75s;
+      -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.imgdiv3:hover{
+  transform: scale(1.2);
+}
+
+.img03{
+  width: 470px;
+  object-fit: fill;
+    border-radius: 5px;
+}
+
+.imgdiv4{
+  width: 470px;
+  height: 265px;
+  margin-left: 14px;
+    transition: 0.75s;
+      -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.imgdiv4:hover{
+  transform: scale(1.2);
+}
+
+.img04{
+  width: 470px;
+  object-fit: fill;
+  border-radius: 5px;
+}
+
+
+
+.text2{
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 20%;
+  font-family: 'Inter', sans-serif;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.container{
+  width: 97%;
+  height: 280px;
+  background-color: black;
+  border: 3px  solid white;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.scrollmenu{
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+div.scrollmenu{
+  overflow: auto;
+  white-space: nowrap;
+    overflow-y: hidden;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 220px;
+  margin-top: 5px;
+        -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+div.scrollmenu img{
+  width: 170px;
+  height: 210px;
+  scroll-snap-align: start;
+}
+
+.member-1{
+
+  border-radius: 20px;
+  transition: 0.40s;
+}
+
+
+.member-2{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+}
+
+.member-3{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+
+}
+
+.member-4{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+
+}
+
+.member-5{
+
+  border-radius: 20px;
+  transition: 0.40s;
+    margin-left: -105px;
+
+}
+
+.member-6{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+
+}
+
+.member-7{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+
+}
+
+.member-8{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+
+}
+
+.member-9{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+
+}
+
+.member-10{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+
+}
+
+.member-11{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+
+}
+
+.member-12{
+
+  border-radius: 20px;
+  transition: 0.40s;
+  margin-left: -105px;
+
+}
+
+.parent3{
+  display: none;
+}
+
+.about-1{
+  margin-top: 10;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.why-bengen{
+  font-size: 35px;
+  text-align: center;
+}
+
+.why-text{
+  padding-right: 0px;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+
+.about-2{
+  margin-top: 35px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.how-old{
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.how-text{
+  padding-right: 0px;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+
+.about-2{
+  margin-top: 35px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.how-old{
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.how-text{
+  padding-right: 0px;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+
+.about-3{
+  margin-top: 100px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.when-leave{
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.when-text{
+  padding-right: 0px;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+
 }

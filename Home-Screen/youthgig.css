@@ -201,7 +201,6 @@ body {
   margin-top: 50px;
 }
 
-
 .apptable{
   padding-top: 0px;
   padding-left: 20px;
@@ -956,12 +955,14 @@ display: block;
 }
 
 .contable{
-  border-spacing: 20px;
+  border-spacing: 55px;
+  width: 725px;
 }
 
 .lorem1{
   color: #ffffff;
   width: 250px;
+  font-size: 15px;
   transition: 0.75s;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -975,6 +976,7 @@ display: block;
 .lorem2{
   color: #ffffff;
   width: 250px;
+  font-size: 15px;
   transition: 0.75s;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -988,6 +990,7 @@ display: block;
 .lorem3{
   color: #ffffff;
   width: 250px;
+  font-size: 15px;
   transition: 0.75s;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -1388,7 +1391,6 @@ display: none;
 }
 
 div.scrollmenu {
-  background-color: rgb(0, 0, 0);
   overflow: auto;
   white-space: nowrap;
   width: 100%;
@@ -1605,9 +1607,10 @@ table.apptablemobile2 img{
   color: #ffffff;
   text-align: center;
   margin: auto;
-  width: 200px;
+  width: 280px;
   height: 100px;
-  font-size: 13px;
+  background-color: #c93636;
+  font-size: 24px;
   margin-top: 20px;
   font-family: 'Fira Code', monospace;
   transition: 0.40s;
@@ -1616,7 +1619,7 @@ table.apptablemobile2 img{
 }
 
 .emailmobile:hover{
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 
