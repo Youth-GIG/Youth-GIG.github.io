@@ -52,12 +52,6 @@ body {
   top: 0px;
 }
 
-.child1{
-    width: 100%;
-    background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .img1{
     width: 100%;
@@ -122,6 +116,7 @@ body {
 
 }
 
+
 .img3:hover{
     transform: scale(1.2);   
 }
@@ -158,6 +153,8 @@ body {
 .table2{
     margin-top: -7px;
 }
+
+
 
 .img5{
     width: 234px;
@@ -1162,6 +1159,7 @@ div.parentmobile div{
     background-color: rgb(0, 0, 0);
     margin: auto;
 }
+
 
 .img2{
   display: none;
