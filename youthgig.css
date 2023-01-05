@@ -99,6 +99,14 @@ body {
   user-select: none; /* Standard syntax */
 }
 
+.hidden{
+  opacity: 0;
+  transition: 1s;
+}
+
+.show{
+  opacity: 1;
+}
 
 
 .table1{
@@ -400,8 +408,8 @@ display: block;
     color: #ffffff;
     font-size: 35px;
     margin-top: 100px;
-        padding-right: 49px;
-    float: right;
+    margin-left: 103px;
+    float: left;
     font-family: 'Inter', sans-serif;
        -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -413,8 +421,10 @@ display: block;
     font-size: 17px;
     width: 500px;
     margin-top: 50px;
-    padding-right: 30px;
-    float: right;
+    margin-left: -103px;
+        margin-left: 103px;
+
+    float: left;
     font-family: 'Fira Code', monospace;
        -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -881,6 +891,7 @@ display: block;
     color: #ffffff;
     font-size: 24px;
     margin-top: 100px;
+    margin-left: 35px;
     width: 345px;
     font-family: 'Inter', sans-serif;
        -webkit-user-select: none; /* Safari */
@@ -891,6 +902,7 @@ display: block;
 .appdescript2{
     color: rgb(98, 98, 98);
     font-size: 13px;
+    margin-left: 35px;
     width: 362px;
     margin-top: 20px;
     font-family: 'Fira Code', monospace;
